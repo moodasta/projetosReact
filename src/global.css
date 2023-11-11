@@ -1,11 +1,11 @@
 * {
-    margin: 0; /*Espaçamento externo */
-    padding: 0;  /*Espaçamento interno */
+    margin: 0;                   /* Espaçamento externo */
+    padding: 0;                 /*Espaçamento interno */
     box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
