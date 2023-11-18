@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
 
-    const img_path = 'https://image.tmdb.org/t/p/w500/'
+    const img_path = "https://image.tmdb.org/t/p/w500/"
 
 
     const [movies, setMovies] = useState([])
@@ -32,9 +32,12 @@ export default function Home() {
                     movies.map(movie => {
                         return (
                             <Movie>
-                                <a href="https://www.google.com">
+         
+                            <a href="#">
+
                                     <img src={`${img_path}${movie.poster_path}`} alt={movie.title} />
-                                </a>
+                            </a>
+                            
                                 <span>{movie.title}</span>
                             </Movie>
                         )
