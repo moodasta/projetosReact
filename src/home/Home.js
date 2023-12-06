@@ -32,11 +32,11 @@ export default function Home() {
                 {
                     movies.map(movie => {
                         return (
-                            <Movie key={movie.id}>         
-                            <Link to = {`/details/${movie.id}`}>
+                            <Movie key={movie.id}>
+                               <Link to = {`/details/${movie.id}`}>
                                     <img src={`${img_path}${movie.poster_path}`} alt={movie.title} />
-                            </Link>         
-                                      
+                                </Link>
+                                
                                 <span>{movie.title}</span>
                             </Movie>
                         )
@@ -46,34 +46,3 @@ export default function Home() {
         </Container>
     )
 }
-
-
-
-
-
-
-
-//     return (
-//         <Container>
-//             <h2>Catálogo</h2>
-//             <ul>
-//                 <li>
-//                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/1/11/Aftersun.jpg/220px-Aftersun.jpg" alt="Aftersun"/>
-//                     <span>Aftersun</span>
-//                 </li>
-
-//                 <li>
-//                 <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/1/11/Aftersun.jpg/220px-Aftersun.jpg" alt="Aftersun"/>
-//                     <span>Aftersun</span>
-//                 </li>
-
-//                 <li>
-//                 <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/1/11/Aftersun.jpg/220px-Aftersun.jpg" alt="Aftersun"/>
-//                     <span>Aftersun</span>
-//                 </li>
-//             </ul>
-//         </Container>
-//     )
-// }
-
-// export default Home;
