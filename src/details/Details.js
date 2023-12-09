@@ -46,7 +46,7 @@ function Details() {
             .then(data => {
                 console.log(data.results[0])
 
-                if (data.results.lenght > 0) {  
+                if (data.results.length > 0) {  
 
                 const trailer = {
                     name: data.results[0].name,
