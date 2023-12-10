@@ -42,3 +42,4 @@ export const Movie = styled.li`
     flex-direction: column;
     align-items: center;
 `
+

@@ -28,7 +28,10 @@ export default function Home() {
 
         <Container>
             <h2>Catálogo</h2>
-            <MovieList>
+
+            <input type="text" placeholder="Pesquisar filmes"></input>
+
+        <MovieList>
                 {
                     movies.map(movie => {
                         return (
